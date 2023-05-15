@@ -9,22 +9,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/49e07ab8ca.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="hero">
         <nav>
             <img class="logo" src="./images/logo.png" alt="Liliana Gorga Logo"/>
-            <ul>
-                <li>About Me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+            <ul id="nav-list">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="hero-area">
             <div class="hero-text">
                 <h1>Liliana Gorga</h1>
                 <p>Full Stack Developer</p>
-                <div class="button">About Me</div>
+                <div class="button"><a href="#about-me">About Me</a></div>
             </div>
             <div class="socials">
                 <div>
@@ -45,7 +49,7 @@
             </div>
         </div>
     </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
             <p>Hello, my name is Liliana Gorga. I am a Software Developer.</p>
@@ -54,7 +58,7 @@
             <img class="headshot" src="./images/headshot.png" alt="LG headshot">
         </div>
     </section>
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
@@ -87,7 +91,10 @@
             </div>
         </div>
     </section>
-    <footer></footer>
+    <footer id="contact-me">
+        <h2>Contact me</h2>
+        <p>test@test.com</p>
+    </footer>
 
     <script src="app.js"></script>
 </body>
