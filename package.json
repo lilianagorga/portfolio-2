@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "description": "responsive portfolio",
   "main": "index.js",
+  "homepage": "https://lilianagorga.github.io/portfolio-4",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lilianagorga/portfolio-4.git"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lilianagorga/portfolio-4/issues"
-  },
-  "homepage": "https://github.com/lilianagorga/portfolio-4#readme"
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
