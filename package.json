@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-4",
+  "version": "1.0.0",
+  "description": "responsive portfolio",
+  "main": "index.js",
+  "homepage": "https://lilianagorga.github.io/portfolio-4",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
