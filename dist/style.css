@@ -1,3 +1,9 @@
-body {
-    background-color: aqua;
+section {
+    height: 500px;
+    background-color: yellow;
+    border: solid black 1px;
+}
+
+.hero {
+    background-color: blue;
 }
